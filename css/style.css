@@ -1,0 +1,817 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.container1{
+    padding-right: 5px;
+    padding-left: 75px;
+}
+
+.navbar .nav-logo .logo-text{
+   margin-left: 40px;
+   margin-top: -55px;
+}
+.navbar .nav-logo {
+    margin-top: 5px;
+}
+.navbar .hr-style{   
+    width: 50px;
+    border-width: 3px;
+    border-color: #A2CA28;
+    float: left;
+    margin-top: -8px;
+    margin-left: 2px;
+}
+.navbar .logo-text .logo{
+    font-family: Bahnschrift;
+    color: white;
+    font-weight: bold;
+    text-transform: uppercase;
+    font-size: 26px;
+    margin-top: 7px;
+}
+.navbar .nav-item{
+    margin-right: 30px;
+}
+.navbar .nav-item .nav-link{
+    color: white;
+    font-weight: bold;
+    font-family: Bahnschrift;
+}
+.navbar .nav-item .nav-link:hover{
+    color: #A2CA28;
+}
+/* -- navbar ends here  --  */
+/* -- Home section starts from here----------  */
+
+.home .home-img img{
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 710px;
+    width: 100%;
+}
+.home .home-text{
+    text-transform: uppercase;
+    font-family: Bahnschrift;
+    position: absolute;
+    margin-top: -200px;
+    color: white;
+    margin-left: 30px;
+}
+.home .home-text h1{
+    font-size: 36px;
+}
+.home .home-text h4{
+    font-size: 23px;
+    margin-left: 130px;
+    margin-top: -4px;
+}
+.home .home-text .txt1{
+    color: #A2CA28;
+}
+.home .home-text .txt2{
+    color: #BB5045;
+}
+/* home ends here  */
+/* about section starts here  */
+.about{
+    background-color: #A2CA28;
+}
+.about .row{
+    padding-top: 20px;
+}
+.about .card{
+    background-color: #A2CA28;
+    border: none;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+.about .card img{
+    height: 70px;
+    width: 70px;
+    margin-left: 10px;
+}
+.about .card-body{
+    padding: 5px;
+}
+.about .card .card-title{
+    color: white;
+    font-size: 26px;
+    font-family: Bahnschrift;
+}
+.about .card .card-text{
+     color: white;
+    font-family: Verdana;
+    margin-top: -10px;
+    margin-right: -15px;
+}
+.about .card .btn{
+    background-color: #A2CA28;
+    color: white;
+    cursor: pointer;
+    font-size: 17px;
+    transition: 0.5s;
+    border: none;
+    outline: none;
+    font-weight: bold;
+    margin-left: -10px;
+    margin-top: 10px;
+}
+.about .card .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+  
+.about .card .btn  span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.about .card .btn:hover span {
+    padding-right: 25px;
+}
+.about .card .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+  }
+  /* grid1 sections starts here  */
+.about .grid{
+    background-color: white;
+    margin-top: 20px;
+    border-radius: 5px;
+}
+.about .grid .left-grid{
+    text-align: center;
+}
+.about .grid .left-grid h1{
+    font-family: Bahnschrift;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #A2CA28;
+}
+.about .grid .left-grid h3{
+    color: #BB5045;
+    font-size: 21px;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 19px;
+}
+.about .grid .right-grid img{
+    width: 100%;
+    height: 340px;
+    margin-top: -20px;
+}
+.about .grid .left-grid p{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.about .grid .left-grid a{
+    color: #A2CA28;
+    font-size: 22px;
+    font-family: Bahnschrift;
+}
+.about .grid .left-grid a:hover{
+    color: #BB5045;
+}
+.about .grid .right-grid .grid-mark{
+    position: absolute;
+    margin-top: -35px;
+    display: flex;
+    right: 45px;
+}
+.about .grid .right-grid .grid-mark p{
+    margin-right: 5px;
+    color: #BB5045;
+    font-family: Bahnschrift;
+    margin-top: -12px;
+}
+.about .grid .right-grid .grid-mark span{
+    color: white;
+}
+.about .grid .right-grid .grid-mark img{
+    height: 30px;
+    width: 20px;   
+}
+/* Grid1 ends here---  */
+/* grid2 starts here  */
+.about .grid2{
+    background-color: white;
+    border-radius: 5px;
+}
+.about .grid2 .right-grid{
+    text-align: center;
+}
+.about .grid2 .right-grid h1{
+    font-family: Bahnschrift;
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #A2CA28;
+}
+.about .grid2 .right-grid h3{
+    color: #BB5045;
+    font-size: 21px;
+    font-family: Bahnschrift;
+    font-weight: bold;
+    text-transform: uppercase;
+    margin-top: 19px;
+}
+.about .grid2 .left-grid img{
+    width: 100%;
+    height: 340px;
+    margin-top: -20px;
+}
+.about .grid2 .right-grid p{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    margin-top: 20px;
+}
+.about .grid2 .right-grid a{
+    color: #A2CA28;
+    font-size: 22px;
+    font-family: Bahnschrift;
+}
+.about .grid2 .right-grid a:hover{
+    color: #BB5045;
+}
+.about .grid2 .left-grid .grid-mark{
+    position: absolute;
+    margin-top: -35px;
+    display: flex;
+    left: 45px;
+}
+.about .grid2 .left-grid .grid-mark p{
+    margin-left: 5px;
+    color: #BB5045;
+    font-family: Bahnschrift;
+    margin-top: -14px;
+}
+.about .grid2 .left-grid .grid-mark span{
+    color: white;
+}
+.about .grid2 .left-grid .grid-mark img{
+    height: 30px;
+    width: 20px;   
+}
+/* grid2 ends here  */
+/* about2 starts here  */
+.about2{
+    background-color: #BB5045;
+}
+.about2 .grid3  .left-grid {
+    width:380px;
+}
+.about2 .grid3  .left-grid img{
+    width: 100%;
+}
+.about2 .grid3 .right-grid img{
+    width: 100%;
+    height: 340px;
+}
+.about2 .grid3 .right-grid .grid-mark{
+    position: absolute;
+    top: 25px;
+    display: flex;
+    right: 35px;
+    color: white;
+    font-family: Bahnschrift;
+}
+.about2 .grid3 .right-grid .grid-mark h3{
+    font-size: 23px;
+}
+.about2 .grid3 .right-grid h2{
+    position: absolute;
+    top: 25px;
+    font-size: 23px;
+    color: white;
+    font-family: Bahnschrift;
+    margin-left: 15px;
+}
+.about2 .grid3 .right-grid .grid-mark img{
+    height: 25px;
+    width: 16px;
+    margin-left: 6px;   
+}
+/* grid3 ends here  */
+/* grid4 starts here  */
+.about2 .grid4 .left-grid{
+    text-align: center;
+    background-color: white;
+    width:380px;
+    font-family: Bahnschrift;
+}
+.about2 .grid4 .left-grid h1{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: #A2CA28;
+}
+.about2 .grid4 .left-grid h3{
+    color: #BB5045;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.about2 .grid4 .left-grid p{
+    padding-left: 15px;
+    padding-top: 15px;
+    padding-right: 15px;
+    margin-left: 10px;
+    padding-bottom: 40px;
+}
+.about2 .grid4 .right-grid{
+    background-color: #A2CA28;
+    font-family: Bahnschrift;
+    padding-top: 65px;
+    padding-right: 10px;
+    padding-bottom: 70px;
+    padding-left: 30px;
+}
+.about2 .grid4 .right-grid h1{
+    color: white;
+    text-transform: uppercase;
+}
+.about2 .grid4 .right-grid p{
+    padding-top: 10px;
+    padding-right: 15px;
+    color: white;
+}
+/* grid4 ends here  */
+/* grid5 starts from here  */
+.about2 .grid5 .left-grid {
+    width: 760px;
+}
+.about2 .grid5 .left-grid .grid-img img{
+    width: 100%;
+    height: 320px;
+   margin-top: -16px;
+}
+.about2 .grid5 .right-grid {
+    width: 350px;
+}
+.about2 .grid5 .right-grid img{
+  width: 100%;
+  height: 320px;
+  margin-top: -16px;
+}
+/* grid5 ends here  */
+/* grid6 starts here  */
+.about2 .grid6 .right-grid{
+    text-align: center;
+    background-color: #A2CA28;
+    width:355px;
+    height: 300px;
+    margin-left: -5px;
+    font-family: Bahnschrift;
+}
+.about2 .grid6 .right-grid h1{
+    font-size: 36px;
+    text-transform: uppercase;
+    color: white;
+    margin-top: -5px;
+}
+.about2 .grid6 .right-grid h3{
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+    text-transform: uppercase;
+    padding-top: 30px;
+}
+.about2 .grid6 .right-grid p{
+    color: white;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 10px;
+}
+.about2 .grid6 .left-grid{
+    background-color: white;
+    font-family: Bahnschrift;
+    padding-top: 55px;
+    padding-right: 30px;
+    padding-left: 40px;
+    width: 760px;
+    height: 300px;
+}
+.about2 .grid6 .left-grid h3{
+    color: #BB5045;
+    font-size: 24px;
+    text-transform: uppercase;
+}
+.about2 .grid6 .left-grid h1{
+    color: #A2CA28;
+    font-size: 36px;
+    margin-top: -6px;
+    text-transform: uppercase;
+}
+.about2 .grid6 .left-grid p{
+    padding-top: 5px;
+    padding-right: 20px;
+    color: black;
+}
+/* grid6 ends here  */
+/* banner starts here  */
+
+.banner .banner-txt{
+    margin-top: -340px;
+    margin-bottom: 226px;
+    color: white;
+   display: block;
+    font-family: Bahnschrift;
+}
+.banner .banner-txt h1{
+    font-size: 46px;
+}
+.banner .banner-txt p{
+    padding-right: 330px;
+    padding-left: 330px;
+}
+/* banner ends here  */
+/* footer starts here  */
+.footer{
+    background-color: #0D111A;
+    padding-bottom: 40px;
+}
+.footer .left-side{
+    color: white;
+    padding-top: 50px;
+    padding-left: 20px;
+}
+.footer .left-side p{
+    font-size: 15px;
+}
+.footer .right-side{
+    margin-top: 50px;
+}
+.footer .right-side h1{
+    color: white;
+}
+.footer .right-side p{
+    color: white;
+    font-size: 15px;
+}
+.footer .footer-input {
+    margin-left: 22px;
+    margin-top: 18px;
+}
+.footer .footer-input input{
+    padding: 8px 15px;
+    margin-left: 7px;
+    outline: none;
+    border: none;
+    border-radius: 5px;
+}
+.footer .footer-input .btn{
+    padding: 5px 16px;
+    background-color: #A2CA28 ;
+    border-radius:4px ;
+    color: white;
+    cursor: pointer;
+    text-align: center;
+    font-size: 18px;
+    transition: 0.5s;
+    font-family: Bahnschrift;
+    margin-top: -5px;
+    margin-left: 10px;
+}
+.footer .footer-input .btn span {
+    cursor: pointer;
+    display: inline-block;
+    position: relative;
+    transition: 0.5s;
+}
+.footer .left-side h1{
+    font-size: 34px;
+}
+.footer .right-side .col-md-8 h1{
+    font-size: 34px;
+}
+
+.footer .footer-input .btn  span:after {
+    content: '\00bb';
+    position: absolute;
+    opacity: 0;
+    top: 0;
+    right: -20px;
+    transition: 0.5s;
+}
+.footer .footer-input .btn:hover span {
+    padding-right: 18px;
+}
+.footer .footer-input .btn:hover span:after {
+    opacity: 1;
+    right: 0;
+}
+.footer .right-side .col-md-4 h1{
+    font-size: 34px;
+}
+.footer .right-side ul{
+    margin-left: -12px;
+}
+.footer .right-side ul li{
+    font-size: 30px;
+    width: 40px;
+    height: 40px;
+    text-align: center;
+    list-style: none;
+    text-decoration: none;
+    margin-top: 15px;
+    float: left;
+    margin-left: 15px;
+}
+  
+.footer .right-side .fa-facebook-f {
+    background: #3B5998;
+    padding: 9px;
+    color: white;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+  
+.footer .right-side .fa-twitter {
+    background: #55ACEE;
+    color: white;
+    padding: 9px;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+  
+.footer .right-side .fa-linkedin-in {
+    background: #007bb5;
+    color: white;
+    padding: 9px;
+    border-radius: 50%;
+    width: 44px;
+    height: 44px;
+}
+  
+.footer .right-side .fa-youtube {
+    background: #bb0000;
+    color: white;
+    width: 44px;
+    height: 44px;
+    padding: 9px;
+    border-radius: 50%;
+}
+  
+/* footer ends here  */
+
+/********** Responsive Design Start Here  **********/
+@media only screen and (max-width:1167px){
+
+}
+@media only screen and (max-width:992px){
+    
+}
+
+@media only screen and (max-width:767px){
+    .container1{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .home .home-img img{
+        height: 560px;
+        width: 100%;
+    }
+    .home .home-text{
+        margin-top: -120px;
+        margin-left: 0px;
+    }
+    .about .card {
+        text-align: center;
+        margin-top: 10px;
+    }
+    .about .card img{
+        margin: auto;
+    }
+    .about .card .btn{
+       display: flex;
+       margin: auto;
+    }
+    .about .grid .right-grid img{
+        margin-top: 10px;
+    }
+    .about .grid .right-grid .grid-mark{
+        margin-top: -55px;
+        right: 35px;
+    }
+    .about .grid .right-grid .grid-mark p{
+        margin-right: 5px;
+        margin-top: 13px;
+    }
+    .about2 .grid3  .left-grid {
+        width:100%;
+    }
+    .about2 .grid3  .left-grid img{
+        width: 100%;
+        height: 340px;
+    }
+    .about2 .grid4 .left-grid{
+        width:100%;
+    }
+    .about2 .grid4 .right-grid{
+        margin-top: -20px;
+    }
+   .about2 .grid5 .left-grid{
+       width: 100%;
+   }
+    .about2 .grid5 .left-grid .grid-img img{
+        width: 100%;
+       margin-left: 0px;
+       margin-top: 0px;
+    }
+    .about2 .grid5 .right-grid {
+        width: 100%;
+    }
+    .about2 .grid5 .right-grid img{
+      width: 100%;
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+    .banner .banner-img img{
+        height: 550px;
+        width: 100%;
+    }
+    .banner .banner-txt{
+        margin-top: -320px;
+        margin-bottom: 140px;
+     }
+    .banner .banner-txt h1{
+        font-size: 38px;
+     }
+    .banner .banner-txt p{
+        padding-right: 30px;
+        padding-left: 30px;
+    } 
+    .about2 .grid6 .right-grid{
+        
+        width:100%;
+        height: 300px;
+        margin-left: 0px;
+    }
+    .about2 .grid6 .left-grid{
+        padding-top: 35px;
+        padding-right: 30px;
+        padding-left: 40px;
+        width: 100%;
+        height: 355px;
+    }
+    .footer .left-side{
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .footer .right-side{
+        margin-top: 50px;
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .footer .right-side ul{
+        margin-left: -15px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer .footer-input {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .footer .footer-input input{
+        width: 80%;
+        margin-top: 10px;
+        margin-left: 2px;
+        text-align: center;
+    }
+    .footer .footer-input .btn{
+        margin-top: 10px;
+    }
+   
+}
+@media only screen and (max-width:492px){
+    .container1{
+        padding-right: 25px;
+        padding-left: 25px;
+    }
+    .home .home-img img{
+        height: 560px;
+        width: 100%;
+    }
+    .home .home-text{
+        margin-top: -120px;
+        margin-left: 0px;
+    }
+    .about .card .btn{
+       display: flex;
+       margin: auto;
+    }
+    .about .grid .right-grid img{
+        margin-top: 10px;
+    }
+    .about .grid .right-grid .grid-mark{
+        margin-top: -55px;
+        right: 35px;
+    }
+    .about .grid .right-grid .grid-mark p{
+        margin-right: 5px;
+        margin-top: 13px;
+    }
+    .about2 .grid3  .left-grid {
+        width:100%;
+    }
+    .about2 .grid3  .left-grid img{
+        width: 100%;
+        height: 340px;
+    }
+    .about2 .grid4 .left-grid{
+        width:100%;
+    }
+    .about2 .grid4 .right-grid{
+        margin-top: -20px;
+    }
+   .about2 .grid5 .left-grid{
+       width: 100%;
+   }
+    .about2 .grid5 .left-grid .grid-img img{
+        width: 100%;
+       margin-left: 0px;
+       margin-top: 0px;
+    }
+    .about2 .grid5 .right-grid {
+        width: 100%;
+    }
+    .about2 .grid5 .right-grid img{
+      width: 100%;
+      margin-top: 0px;
+      margin-left: 0px;
+    }
+    .banner .banner-img img{
+        height: 550px;
+        width: 100%;
+    }
+    .banner .banner-txt{
+        margin-top: -320px;
+        margin-bottom: 140px;
+     }
+    .banner .banner-txt h1{
+        font-size: 38px;
+     }
+    .banner .banner-txt p{
+        padding-right: 30px;
+        padding-left: 30px;
+    } 
+    .about2 .grid6 .right-grid{
+        
+        width:100%;
+        height: 300px;
+        margin-left: 0px;
+    }
+    .about2 .grid6 .left-grid{
+        padding-top: 35px;
+        padding-right: 30px;
+        padding-left: 40px;
+        width: 100%;
+        height: 355px;
+    }
+    .footer .left-side{
+        padding-top: 50px;
+        padding-left: 20px;
+        padding-right: 20px;
+        text-align: center;
+    }
+    .footer .right-side{
+        margin-top: 50px;
+        text-align: center;
+        padding-right: 20px;
+        padding-left: 20px;
+    }
+    .footer .right-side ul{
+        margin-left: -15px;
+        display: flex;
+        justify-content: center;
+    }
+    .footer .footer-input {
+        margin-left: 0px;
+        margin-top: 0px;
+    }
+    .footer .footer-input input{
+        width: 100%;
+        margin-top: 10px;
+        margin-left: 2px;
+    }
+    .footer .footer-input .btn{
+        margin-top: 10px;
+    }
+   
+}
