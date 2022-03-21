@@ -617,6 +617,17 @@
         width: 100%;
         height: 340px;
     }
+    .about2 .grid3 .right-grid h2{
+        font-size: 20px;
+    }
+    .about2 .grid3 .right-grid .grid-mark h3{
+        font-size: 20px;
+    }
+    .about2 .grid3 .right-grid .grid-mark img{
+        height: 20px;
+        width: 11px;
+        margin-left: 6px;   
+    }
     .about2 .grid4 .left-grid{
         width:100%;
     }
